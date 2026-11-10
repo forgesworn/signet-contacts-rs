@@ -1,0 +1,18 @@
+[package]
+name = "signet-contacts"
+description = "Contacts-v2 wire format for Signet: pairing, ack, vault envelope and projection parsing (the consumer side)."
+version = "0.1.0"
+# The code uses let-chains, which need edition 2024.
+edition = "2024"
+license = "MIT"
+authors = ["decented"]
+repository = "https://github.com/forgesworn/signet-contacts-rs"
+
+[dependencies]
+aes-gcm = "0.11"
+base64 = "0.22"
+hex = "0.4"
+nostr = { version = "=0.44.8", features = ["nip44"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+sha2 = "0.11"
