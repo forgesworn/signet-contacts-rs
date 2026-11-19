@@ -1,0 +1,14 @@
+# Signet Contacts for Rust
+
+> Rust consumer-side wire library for Signet Contacts v2 pairing, acknowledgements, encrypted vault envelopes and projections.
+
+## Documentation
+
+- [Rust integration](https://github.com/forgesworn/signet-contacts-rs/blob/main/README.md): Cargo naming, supported operations and conformance checks.
+
+## ForgeSworn ecosystem
+
+- [ForgeSworn library guide](https://forgesworn.dev/llms.txt): Find related libraries, tools and integration guides by task and runtime.
+- [ForgeSworn on GitHub](https://github.com/forgesworn): Browse the organisation’s public repositories.
+- [Project source](https://github.com/forgesworn/signet-contacts-rs): Canonical source repository, documentation and release information.
+- [signet-contacts-conformance](https://github.com/forgesworn/signet-contacts-conformance): Shared v2 fixtures for cross-language compatibility.
